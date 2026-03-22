@@ -2,3 +2,8 @@ venv/
 __pycache__/
 *.pyc
 .env
+models/object_detection_model/weights/
+models/shape_predictor_model/
+*.dat
+*.weights
+*.pdf
