@@ -1,0 +1,28 @@
+==============================================================
+  AI INTERVIEW INTEGRITY REPORT
+  Session date : 2026-03-22
+  Start time   : 00:50:14
+  Duration     : 0:02:10
+  Final risk   : CRITICAL
+  Risk score   : 62
+==============================================================
+
+INCIDENT LOG
+--------------------------------------------------------------
+[00:50:16] [WARN    ] Tab switch: Total switches: 1
+[00:50:16] [HIGH    ] Window hidden: App lost focus (event #1)
+[00:51:19] [WARN    ] Tab switch: Total switches: 2
+[00:51:19] [HIGH    ] Window hidden: App lost focus (event #2)
+[00:51:58] [HIGH    ] Extra person: Person detected with no registered face — possible third party
+[00:52:08] [WARN    ] Tab switch: Total switches: 3
+[00:52:08] [HIGH    ] Window hidden: App lost focus (event #3)
+[00:52:21] [WARN    ] Tab switch: Total switches: 4
+[00:52:21] [HIGH    ] Window hidden: App lost focus (event #4)
+
+SUMMARY BY SIGNAL
+--------------------------------------------------------------
+  Tab switch                       4 event(s)
+  Window hidden                    4 event(s)
+  Extra person                     1 event(s)
+
+==============================================================

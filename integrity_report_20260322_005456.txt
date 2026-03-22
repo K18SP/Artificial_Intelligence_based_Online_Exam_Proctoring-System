@@ -1,0 +1,28 @@
+==============================================================
+  AI INTERVIEW INTEGRITY REPORT
+  Session date : 2026-03-22
+  Start time   : 00:54:28
+  Duration     : 0:00:28
+  Final risk   : CRITICAL
+  Risk score   : 100
+==============================================================
+
+INCIDENT LOG
+--------------------------------------------------------------
+[00:54:41] [WARN    ] Gaze away: 3s — head: Head Up, eyes: left
+[00:54:44] [WARN    ] Tab switch: Total switches: 1
+[00:54:44] [HIGH    ] Window hidden: App lost focus (event #1)
+[00:54:46] [HIGH    ] Gaze away: 8s — head: Center, eyes: left
+[00:54:49] [WARN    ] Clipboard paste: Total paste events: 1
+[00:54:52] [WARN    ] Gaze away: 3s — head: Head Up, eyes: left
+[00:54:54] [WARN    ] Tab switch: Total switches: 2
+[00:54:54] [HIGH    ] Window hidden: App lost focus (event #2)
+
+SUMMARY BY SIGNAL
+--------------------------------------------------------------
+  Gaze away                        3 event(s)
+  Tab switch                       2 event(s)
+  Window hidden                    2 event(s)
+  Clipboard paste                  1 event(s)
+
+==============================================================

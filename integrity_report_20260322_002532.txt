@@ -1,0 +1,51 @@
+==============================================================
+  AI INTERVIEW INTEGRITY REPORT
+  Session date : 2026-03-22
+  Start time   : 00:24:44
+  Duration     : 0:00:48
+  Final risk   : CRITICAL
+  Risk score   : 100
+==============================================================
+
+INCIDENT LOG
+--------------------------------------------------------------
+[00:24:47] [WARN    ] Tab switch: Total switches: 1
+[00:24:47] [HIGH    ] Window hidden: App lost focus 1×
+[00:24:48] [HIGH    ] Extra person: Additional person detected by object model
+[00:24:53] [HIGH    ] Extra person: Additional person detected by object model
+[00:24:54] [WARN    ] Gaze away: 3s — head: Head Right, eyes: left
+[00:24:56] [WARN    ] Mouth open: Sustained 4s — possible whispering
+[00:24:58] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:00] [HIGH    ] Gaze away: 8s — head: Head Right, eyes: left
+[00:25:03] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:05] [HIGH    ] Gaze away: 13s — head: Head Right, eyes: left
+[00:25:05] [WARN    ] Mouth open: Sustained 4s — possible whispering
+[00:25:08] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:10] [HIGH    ] Gaze away: 18s — head: Head Right, eyes: left
+[00:25:10] [WARN    ] Mouth open: Sustained 9s — possible whispering
+[00:25:17] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:17] [WARN    ] Mouth open: Sustained 4s — possible whispering
+[00:25:17] [WARN    ] Tab switch: Total switches: 3
+[00:25:17] [HIGH    ] Window hidden: App lost focus 62×
+[00:25:19] [WARN    ] Gaze away: 3s — head: Head Right, eyes: center
+[00:25:22] [WARN    ] Mouth open: Sustained 9s — possible whispering
+[00:25:23] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:24] [HIGH    ] Tab switch: Total switches: 5
+[00:25:24] [HIGH    ] Window hidden: App lost focus 103×
+[00:25:24] [HIGH    ] Gaze away: 8s — head: Head Right, eyes: left
+[00:25:27] [WARN    ] Clipboard paste: Total paste events: 1
+[00:25:27] [WARN    ] Mouth open: Sustained 14s — possible whispering
+[00:25:28] [HIGH    ] Extra person: Additional person detected by object model
+[00:25:29] [HIGH    ] Gaze away: 13s — head: Head Right, eyes: left
+[00:25:32] [WARN    ] Mouth open: Sustained 19s — possible whispering
+
+SUMMARY BY SIGNAL
+--------------------------------------------------------------
+  Extra person                     8 event(s)
+  Gaze away                        7 event(s)
+  Mouth open                       7 event(s)
+  Tab switch                       3 event(s)
+  Window hidden                    3 event(s)
+  Clipboard paste                  1 event(s)
+
+==============================================================
