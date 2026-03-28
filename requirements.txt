@@ -1,0 +1,61 @@
+# AI Interview Proctoring System — full environment
+# Install: pip install -r requirements.txt
+#
+# Notes:
+# - Use opencv-contrib-python (includes cv2.face for LBPH identity); do not also install opencv-python.
+# - dlib may need a prebuilt wheel on Windows or CMake + build tools.
+# - pyaudio on Windows often needs a matching wheel (e.g. pipwin install pyaudio) if pip fails.
+# - NumPy 2.x often breaks older facenet / some wheels; this file pins NumPy 1.x.
+
+# --- Core ---
+requests>=2.28.0
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0
+Pillow>=9.0.0
+tqdm>=4.30.0
+gdown>=3.10.1
+python-dotenv>=1.0.1
+
+# --- Computer vision & geometry ---
+opencv-contrib-python>=4.5.5.64
+dlib>=19.24.0
+imutils>=0.5.4
+
+# --- Deep learning / face (DeepFace, RetinaFace, emotion) ---
+tensorflow>=2.12.0
+tf-keras>=2.16.0
+mtcnn>=0.1.0
+retina-face>=0.0.14
+deepface>=0.0.90
+
+# --- Audio & speech ---
+SpeechRecognition>=3.10.0
+pyttsx3>=2.90
+scipy>=1.10.0
+pyaudio>=0.2.14
+
+# --- Interview (Groq LLM + resume PDF) ---
+groq>=0.4.0
+pdfplumber>=0.10.0
+fpdf2>=2.7.0
+
+# --- Reports & portal analytics ---
+plotly>=5.18.0
+
+# --- FastAPI platform API ---
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+sqlalchemy>=2.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+bcrypt>=4.0.0
+python-multipart>=0.0.6
+pydantic[email]>=2.0.0
+email-validator>=2.0.0
+
+# --- Streamlit portal ---
+streamlit>=1.28.0
+streamlit-drawable-canvas>=0.9.0
+
+# --- Windows-only (tab focus + clipboard proctoring); safe to skip on Linux/macOS ---
+pywin32>=306; platform_system == "Windows"
